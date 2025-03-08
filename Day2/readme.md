@@ -1,15 +1,15 @@
-What is Deployment in k8s
+Task: What are the Linux commands to
 
-A Deployment provides a configuration for updates for Pods and ReplicaSets.
-
-You describe a desired state in a Deployment, and the Deployment Controller changes the actual state to the desired state at a controlled rate. You can define Deployments to create new replicas for scaling, or to remove existing Deployments and adopt all their resources with new Deployments.
-Today's task let's keep it very simple.
-Task-1:
-
-Create one Deployment file to deploy a sample todo-app on K8s using "Auto-healing" and "Auto-Scaling" feature
-
-    add a deployment.yml file (sample is kept in the folder for your reference)
-    apply the deployment to your k8s (minikube) cluster by command kubectl apply -f deployment.yml
-
-Let's make your resume shine with one more project
+    View the content of a file and display line numbers.
+    Change the access permissions of files to make them readable, writable, and executable by the owner only.
+    Check the last 10 commands you have run.
+    Remove a directory and all its contents.
+    Create a fruits.txt file, add content (one fruit per line), and display the content.
+    Add content in devops.txt (one in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava. Then, append "Pineapple" to the end of the file.
+    Show the first three fruits from the file in reverse order.
+    Show the bottom three fruits from the file, and then sort them alphabetically.
+    Create another file Colors.txt, add content (one color per line), and display the content.
+    Add content in Colors.txt (one in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey. Then, prepend "Yellow" to the beginning of the file.
+    Find and display the lines that are common between fruits.txt and Colors.txt.
+    Count the number of lines, words, and characters in both fruits.txt and Colors.txt.
 
