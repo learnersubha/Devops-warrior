@@ -1,6 +1,2 @@
-Create one Deployment file to deploy a sample todo-app on K8s using "Auto-healing" and "Auto-Scaling" feature
-
-    add a deployment.yml file (sample is kept in the folder for your reference)
-    apply the deployment to your k8s (minikube) cluster by command kubectl apply -f deployment.yml
-
-Let's make your resume shine with one more project
+ 1. View the content of a file and display line numbers.
+ => if you inly want to show file contant then you can use cat commant 
