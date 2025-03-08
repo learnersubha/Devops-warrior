@@ -1,51 +1,15 @@
-Let's read about minikube and implement k8s in our local machine
+What is Deployment in k8s
 
-    What is minikube?
+A Deployment provides a configuration for updates for Pods and ReplicaSets.
 
-Ans:- Minikube is a tool which quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows. It can deploy as a VM, a container, or on bare-metal.
+You describe a desired state in a Deployment, and the Deployment Controller changes the actual state to the desired state at a controlled rate. You can define Deployments to create new replicas for scaling, or to remove existing Deployments and adopt all their resources with new Deployments.
+Today's task let's keep it very simple.
+Task-1:
 
-Minikube is a pared-down version of Kubernetes that gives you all the benefits of Kubernetes with a lot less effort.
+Create one Deployment file to deploy a sample todo-app on K8s using "Auto-healing" and "Auto-Scaling" feature
 
-This makes it an interesting option for users who are new to containers, and also for projects in the world of edge computing and the Internet of Things.
+    add a deployment.yml file (sample is kept in the folder for your reference)
+    apply the deployment to your k8s (minikube) cluster by command kubectl apply -f deployment.yml
 
-    Features of minikube
-
-Ans :-
-
-(a) Supports the latest Kubernetes release (+6 previous minor versions)
-
-(b) Cross-platform (Linux, macOS, Windows)
-
-(c) Deploy as a VM, a container, or on bare-metal
-
-(d) Multiple container runtimes (CRI-O, containerd, docker)
-
-(e) Direct API endpoint for blazing fast image load and build
-
-(f) Advanced features such as LoadBalancer, filesystem mounts, FeatureGates, and network policy
-
-(g) Addons for easily installed Kubernetes applications
-
-(h) Supports common CI environments
-Task-01:
-Install minikube on your local
-
-For installation, you can Visit this page.
-
-If you want to try an alternative way, you can check this.
-Let's understand the concept pod
-
-Ans:-
-
-Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
-
-A Pod (as in a pod of whales or pea pod) is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers. A Pod's contents are always co-located and co-scheduled, and run in a shared context. A Pod models an application-specific "logical host": it contains one or more application containers which are relatively tightly coupled.
-
-You can read more about pod from here .
-Task-02:
-Create your first pod on Kubernetes through minikube.
-
-We are suggesting you make an nginx pod, but you can always show your creativity and do it on your own.
-
-Having an issue? Don't worry, adding a sample yaml file for pod creation, you can always refer that.
+Let's make your resume shine with one more project
 
