@@ -9,7 +9,7 @@ Task: What are the Linux commands to
     7. Show the first three fruits from the file in reverse order.
     8. Show the bottom three fruits from the file, and then sort them alphabetically.
     9. Create another file Colors.txt, add content (one color per line), and display the content.
-   10. Add content in Colors.txt (one in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey. Then, prepend "Yellow" to the beginning of the file.
-   11. Find and display the lines that are common between fruits.txt and Colors.txt.
-   12. Count the number of lines, words, and characters in both fruits.txt and Colors.txt.
+    10. Add content in Colors.txt (one in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey. Then, prepend "Yellow" to the beginning of the file.
+    11. Find and display the lines that are common between fruits.txt and Colors.txt.
+    12. Count the number of lines, words, and characters in both fruits.txt and Colors.txt.
 
